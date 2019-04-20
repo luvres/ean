@@ -32,6 +32,7 @@ browser
 firebase login
 firebase init
 
+cp index.js functions/index.js
 firebase experimental:functions:shell
 descobrirProduto.get({ qs:{ ean:"7897424081387" } });
 
