@@ -1,6 +1,12 @@
 ## Node and Firebase
 -----
 
+### install Docker
+```
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker $USER
+```
+
 ### Run
 ```
 git clone https://github.com/luvres/ean.git
