@@ -4,6 +4,8 @@
 ### Run
 ```
 git clone https://github.com/luvres/ean.git
+
+cd ean
 ```
 ```
 docker run --rm --name Node \
