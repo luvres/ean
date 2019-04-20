@@ -11,7 +11,7 @@ docker run --rm --name Node \
 -e DISPLAY=unix$DISPLAY \
 -v /tmp/.X11-unix \
 -v $HOME/.Xauthority:/root/.Xauthority \
--v $HOME/1uvr3z/projeto:/root \
+-v $PWD:/root \
 -w /root \
 -ti node:10.15.3-alpine \
 ash -c "apk --no-cache add bash nano chromium \
@@ -20,3 +20,18 @@ ash -c "apk --no-cache add bash nano chromium \
         && bash"
 ```
 
+### run Browser
+```
+browser
+```
+
+### Config
+```
+firebase login
+firebase init
+
+firebase experimental:functions:shell
+descobrirProduto.get({ qs:{ ean:"7897424081387" } });
+
+firebase deploy --only functions
+```
